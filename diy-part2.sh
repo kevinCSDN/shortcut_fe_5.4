@@ -28,5 +28,6 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-
 cd feeds
 cd small
 rm -rf luci-app-passwall2
+rm -rf luci-app-passwall
 cd ..
 cd ..
