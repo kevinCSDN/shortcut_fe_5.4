@@ -16,12 +16,7 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #删除feeds自带mosdns、v2ray-geodata
 rm -rf ./feeds/packages/net/mosdns
-cd feeds
-cd small
-rm -rf luci-app-passwall2
-rm -rf luci-app-passwall
-cd ..
-cd ..
+
 
 
 
