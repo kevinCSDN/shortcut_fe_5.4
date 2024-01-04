@@ -25,3 +25,6 @@ sed -i '$ a uci commit uhttpd' package/lean/default-settings/files/zzz-default-s
 # svn export https://github.com/openwrt/packages/trunk/utils/runc/Makefile feeds/packages/utils/runc/Makefile   # 添加runc1.0.2
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argon
+cd small
+rm -rf luci-app-passwall2
+cd ..
