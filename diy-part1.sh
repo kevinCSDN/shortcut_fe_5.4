@@ -15,7 +15,7 @@
 #删除feeds自带mosdns、v2ray-geodata
 rm -rf ./feeds/packages/net/mosdns
 rm -rf feeds/packages/net/v2ray-geodata
-
+rm -rf feeds/luci/themes/luci-theme-argon
 
 
 
