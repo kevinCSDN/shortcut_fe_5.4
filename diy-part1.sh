@@ -32,8 +32,7 @@ mkdir package/small
 pushd package/small
 
 #克隆源码
-git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
-git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
+
 #passwall2
 git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
 git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall.git
